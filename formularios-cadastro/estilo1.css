@@ -1,0 +1,161 @@
+/* Estilo da página 1(cadastro/entrar) */
+/* Programado por #Eliseu_Zau 03/04/2022 */
+
+#float{
+  height: 100%;
+  width: 100%;
+  background: #654754	
+  position: relative;
+  
+}
+#float-centro{
+  margin-left: 50px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+#cor{
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+/*========================================= inicio ========================================= */
+
+
+*{
+	padding:0;
+	margin:0;
+}
+#heade{
+	background-color: #F70303;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.btn-primary{
+	background-color: darkred;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px 25px;
+	border: 1px solid black;
+	border-radius: 30px;
+	margin-left: 5px;
+}
+#cor-white{
+  color: white;
+}
+.btn-primary:hover{
+ background-color: rgba(0,0,0,0.4);
+}
+
+/* ================== entrar ================== */
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f0f2f5;
+	font-family: "Helvetica", sans-serif;
+	padding-left: -450px;
+	padding-right: 450px;
+}
+
+body,input, button{
+	font-family: "Helvetica", sans-serif;
+}
+
+.container{
+	max-width: 980px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns:1.5fr 1.5fr;
+	padding-top: 30px;
+}
+.logo{
+	display: block;
+	height: 300px;
+	max-width: 100%;
+	margin-bottom: -100px;
+}
+
+h1{
+	margin-right: -550px;
+}
+form{
+	padding: 16px 16px 24px 16px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+from a, input, button {
+	display: block;
+}
+
+input{
+	width: 100%;
+	margin-bottom: 16px;
+	padding: 16px;
+	border-radius: 6px;
+	border: 1px solid #dddfe2;
+}
+input[placeholder] {
+	font-family: "Helvetica", sans-serif;
+	font-weight: 300;
+}
+input::placeholder {
+	font-size: 16px;
+	color: #1d2129;
+	opacity: 0.6;
+}
+
+.entrar, .criar-conta{
+	font-weight: bold;
+	color: white;
+	border-radius: 6px;
+	border: none;
+	padding: 16px;
+	cursor: pointer;
+	text-align: center;
+	border-bottom: 1px solid #dadde1;
+	transition: 200ms cubic-bezier(.08,52,.52,1);
+}
+
+form a {
+	font-size: 14px;
+	color: #1877f2;
+	display: block;
+	text-align: center;
+	margin-top: 16px;
+	text-decoration: none;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #dadde1;
+}
+form a:hover{
+	text-decoration: underline;
+}
+
+.entrar{
+	font-size: 20px;
+	background:  #d11642;
+	width: 100%;
+}
+
+.criar-conta{
+	font-size: 17px;
+	background:  gray;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+
+.entrar:hover{
+	background: #d11642;
+}
+.criar-conta:hover{
+	background: gray;
+}
+.form-subir{
+	margin-top: -180px;
+}

@@ -1,0 +1,48 @@
+/* estilo contactos css */
+/* desenvolvido por Eliseu zau 09/04/2022 20h14 */
+
+/* classes reutilizaveis */
+
+.center{
+	margin: 10px auto 10px auto;
+}
+
+/* inicio header */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.navigationbar{
+	position: relative;
+}
+
+.title{
+	margin: 10px auto 10px auto;
+	font-family: "Roboto", "sans-serif";
+	font-weight: bold;
+	color: #d11642;
+}
+
+.conteudo{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.small-title{
+	font-family: "Roboto", "sans-serif";
+	font-weight: bold;
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+                           /* Pagina partilha */
+
+.content1{
+	position: relative;
+}                           
+
+.pagina-partilha-conteudo{
+	padding-top: 200px;
+}
